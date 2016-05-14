@@ -1,3 +1,9 @@
+//
+//ViewController.m
+//HelloWordl
+//
+
+
 #import "ViewController.h"
 
 @interface ViewController ()
@@ -8,6 +14,12 @@
 -(void)viewDidLoad
 {
     [super viewDidLoad];
+    NSLog(@"hello wordl");
+}
+
+-(void)viewWillAppear
+{
+    NSLog(@"viewWillAppear");
 }
 
 -(void)didRecevieMemoryWarning
